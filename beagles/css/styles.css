@@ -1,0 +1,191 @@
+/* CSS Document */
+
+/*Google Fonts
+font-family: 'Chonburi', cursive;
+font-family: 'Krona One', sans-serif;
+font-family: 'Michroma', sans-serif;
+*/
+@import url('https://fonts.googleapis.com/css2?family=Chonburi&family=Krona+One&family=Michroma&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+body{
+	background-color: #e4f2ea;
+}
+
+header h1{
+	font-size: 7em;
+	color: #e4f2ea;
+	margin-left: 8%;
+	font-family: 'Chonburi', cursive;
+	
+}
+
+header h2{
+	font-size: 3em;
+	color: #e4f2ea;
+	margin-left: 9%;
+	font-family: 'Chonburi', cursive;
+}
+.hnav{
+	width: 100%;
+	background-color: #11181e;
+	min-height: 50px;
+	text-align: center;
+}
+
+.hnav ul{
+	display: block;
+	padding-top: .8em;
+}
+
+.hnav ul li{
+	display: inline-block;
+	list-style-type: none;
+	width: 10%;
+	padding: 0 2%;
+	
+}
+
+.hnav a{
+	text-decoration: none;
+	color: #e4f2ea;
+	font-size: 1.15em;
+	font-weight: bold;
+	font-family: 'Michroma', sans-serif;
+}
+
+.hnav a:hover{
+	background-color: #e4f2ea;
+	color: #11181e;
+	padding: 3px;
+}
+
+header{
+	min-height: 400px;
+	background-color: #734f2f;
+	background-image: url("../images/appearance_beagle.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 20% 20%;
+}
+
+main{
+	width: 100%;
+	min-height: 500px;
+}
+
+#container{
+	width: 80%;
+	min-height: 500px;
+	margin: 0 auto;
+	font-size: 1.8em;
+	margin-bottom: 2%;
+	color: #11181e;
+}
+
+#container img{
+	float: left;
+	margin-right: 2%;
+	border: 20px double #11181e;
+	border-radius: 10px;
+	
+}
+
+.imgAP{
+	width: 70%;
+}
+
+.imgtemper{
+	width: 50%;
+}
+
+.imgPOP{
+	width: 50%;
+}
+
+.newsimg{
+	width: 30%;
+}
+
+#lName{
+	padding-left: 100px;
+}
+
+
+
+#container p{
+	margin-bottom: 1em;
+}
+
+
+
+h1{
+	
+}
+
+h2{
+	
+}
+
+blockquote{
+	font-size: 3em;
+	color: #734f2f;
+
+}
+
+table{
+	
+}
+
+.fnav{
+	width: 100%;
+	background-color: #734f2f;
+	min-height: 25px;
+	text-align: center;
+	padding-bottom: .8em;
+}
+
+.fnav ul{
+	display: block;
+	padding-top: .8em;
+}
+
+.fnav ul li{
+	display: inline-block;
+	list-style-type: none;
+	width: 5%;
+	padding: 0% 5%;
+	
+}
+
+.fnav a{
+	text-decoration: none;
+	color: #e4f2ea;
+	font-size: .8em;
+	font-weight: bold;
+	font-family: 'Michroma', sans-serif;
+}
+
+.fnav a:hover{
+	background-color: #e4f2ea;
+	color: #734f2f;
+	padding: 3px;
+}
+
+.submit{
+	size
+}
+
+footer{
+	min-height: 200px;
+	background-color: #11181e;
+	text-align: center;
+	color: #e4f2ea;
+	padding-top: 3%;
+	
+}
